@@ -20,4 +20,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('mdeditor/', include('mdeditor.urls')),
+    path('jet/', include('jet.urls', 'jet')),
 ]
