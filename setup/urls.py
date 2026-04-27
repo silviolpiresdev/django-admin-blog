@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('mdeditor/', include('mdeditor.urls')),
     path('jet/', include('jet.urls', 'jet')),
+    path("blog/", include("blog.urls"))
 ]
